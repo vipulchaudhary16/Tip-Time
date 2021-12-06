@@ -6,8 +6,10 @@ plugins {
 android {
     compileSdk 31
 
+
     defaultConfig {
         applicationId "com.veercreation.tiptime"
+        vectorDrawables.useSupportLibrary = true
         minSdk 29
         targetSdk 31
         versionCode 1
